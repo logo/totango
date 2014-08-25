@@ -1,0 +1,18 @@
+
+/**
+ * Totango
+ */
+
+.logo[data-logo="Totango"] {
+  width: 4.21943662em;
+  /* (902/142) * (1-.16-.16) - .04-.06 */
+}
+
+.logo[data-logo="Totango"] > * {
+  background-image: url(images/logo.svg);
+  margin: .16em -.06em .16em -.04em;
+}
+
+.logo[data-logo="Totango"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
